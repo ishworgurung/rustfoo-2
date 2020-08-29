@@ -1,0 +1,6 @@
+    for x1 in 0..r1 {
+        l1.insert(x1);
+    }
+
+   // <=>
+    l1.extend((0..r1).into_iter())

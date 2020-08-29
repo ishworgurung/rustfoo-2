@@ -1,0 +1,12 @@
+[package]
+name = "file2db"
+version = "0.1.0"
+authors = ["Ishwor Gurung <me@ishworgurung.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusqlite = "0.20.0"
+time = "0.1.42"
+rayon = "1.2.0"

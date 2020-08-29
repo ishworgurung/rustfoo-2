@@ -1,0 +1,15 @@
+[package]
+name = "pnet-foo"
+version = "0.1.0"
+authors = ["Ishwor Gurung <me@ishworgurung.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pnet = "0.26.0"
+pnet_macros_support = "0.26.0"
+pnet_datalink = "0.26.0"
+pnet_packet = "0.26.0"
+pnet_transport = "0.26.0"
+rand = "*"

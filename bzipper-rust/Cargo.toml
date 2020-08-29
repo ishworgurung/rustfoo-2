@@ -1,0 +1,8 @@
+[package]
+name = "bzipper-rust"
+version = "0.1.0"
+authors = ["Ishwor Gurung <me@ishworgurung.com>"]
+edition = "2018"
+
+[dependencies]
+bzip2 = ">=0.3.3"
