@@ -1,5 +1,5 @@
 [package]
-name = "xdp-bpf-block-udp"
+name = "xdp-ebpf-fw"
 version = "0.1.0"
 edition = '2018'
 
@@ -19,6 +19,6 @@ probes = []
 path = "src/lib.rs"
 
 [[bin]]
-name = "block_udp"
-path = "src/block_udp/main.rs"
+name = "fw"
+path = "src/fw/main.rs"
 required-features = ["probes"]
