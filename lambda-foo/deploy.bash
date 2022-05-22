@@ -36,7 +36,7 @@ sleep 10s
 aws --profile super lambda invoke \
   --cli-binary-format raw-in-base64-out \
   --function-name rustTest \
-  --payload '{"command": "Say Hi!"}' \
+  --payload '{"firstName": "kingkong!"}' \
   output.json
 
 jq < output.json
